@@ -3,7 +3,7 @@
     <div class="h-auto p-10 bg-indigo-800 w-1/8">
       <div class="flex items-center justify-center mb-10">
         <img
-          src="../assets/IMG_5838.jpg"
+          src="../assets/profile.jpeg"
           alt="profile"
           class="w-32 border-2 border-gray-300 rounded-full"
         />
