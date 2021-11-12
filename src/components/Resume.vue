@@ -131,11 +131,25 @@
       >
         Experience
       </h1>
-      <h1 class="my-1 text-lg font-semibold text-gray-600">
+      <h1 class="my-1 text-xl font-semibold text-gray-600">
+        Software Engineer
+      </h1>
+      <h1 class="font-semibold text-gray-600 ">
+        Mohara | (November 2021 - Present)
+      </h1>
+      <ul class="ml-5 text-gray-500 list-disc">
+        <li>
+          Backend development with Node.js, SQL Database and NoSQL database
+        </li>
+        <li>
+          Application Development with Cloud environment (AWS, Google Cloud)
+        </li>
+      </ul>
+      <h1 class="my-1 mt-4 text-xl font-semibold text-gray-600">
         Software Engineer - Backend
       </h1>
       <h1 class="font-semibold text-gray-600 ">
-        Vonder (Thailand) | (July 2020 - Present)
+        Vonder (Thailand) | (July 2020 - October 2021)
       </h1>
       <ul class="ml-5 text-gray-500 list-disc">
         <li>
@@ -148,7 +162,7 @@
         </li>
         <li>Application Development with Cloud environment (AWS)</li>
       </ul>
-      <h1 class="mt-4 mb-1 text-lg font-semibold text-gray-600 ">
+      <h1 class="mt-4 mb-1 text-xl font-semibold text-gray-600 ">
         3D CAD Engineer
       </h1>
       <h1 class="font-semibold text-gray-600 ">
@@ -172,7 +186,7 @@
           Client on detailed engineering requirements.
         </li>
       </ul>
-      <h1 class="mt-4 mb-1 text-lg font-semibold text-gray-600">
+      <h1 class="mt-4 mb-1 text-xl font-semibold text-gray-600">
         Research Assistant
       </h1>
       <h1 class="font-semibold text-gray-600 ">
@@ -190,7 +204,7 @@
         </li>
         <li>Checking of the prototype reactor and to resolve the problem.</li>
       </ul>
-      <h1 class="mt-4 mb-1 text-lg font-semibold text-gray-600">
+      <h1 class="mt-4 mb-1 text-xl font-semibold text-gray-600">
         Field Construction Engineer
       </h1>
       <h1 class="font-semibold text-gray-600 ">
@@ -262,19 +276,30 @@
             <ExternalLink class="ml-1 text-gray-500 fill-current" />
           </a>
         </li>
+        <li>
+          <a
+            class="flex"
+            href="https://confirm.udacity.com/WNJSXVFM"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Cloud Developer Nanodegree
+            <ExternalLink class="ml-1 text-gray-500 fill-current" />
+          </a>
+        </li>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
-import Facebook from './FacebookIcon.vue';
-import LinkedinIcon from './LinkedinIcon.vue';
-import GithubIcon from './GithubIcon.vue';
-import ExternalLink from './ExternalLink.vue';
+import Facebook from "./FacebookIcon.vue";
+import LinkedinIcon from "./LinkedinIcon.vue";
+import GithubIcon from "./GithubIcon.vue";
+import ExternalLink from "./ExternalLink.vue";
 
 export default {
-  name: 'Resume',
+  name: "Resume",
   components: {
     Facebook,
     LinkedinIcon,
