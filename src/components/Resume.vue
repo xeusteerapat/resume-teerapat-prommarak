@@ -85,13 +85,15 @@
           </p>
           <li class="ml-8 text-gray-300 list-disc text-md">HTML/CSS</li>
           <li class="ml-8 text-gray-300 list-disc text-md">Javascript</li>
-          <li class="ml-8 text-gray-300 list-disc text-md">React</li>
+          <li class="ml-8 text-gray-300 list-disc text-md">React, Next.js</li>
         </div>
         <div class="my-1">
           <li class="ml-4 font-semibold text-gray-300 list-none text-md">
             Backend
           </li>
-          <li class="ml-8 text-gray-300 list-disc text-md">Node.js</li>
+          <li class="ml-8 text-gray-300 list-disc text-md">
+            Node.js (Express, Fastify, NestJS)
+          </li>
           <li class="ml-8 text-gray-300 list-disc text-md">Typescript</li>
           <li class="ml-8 text-gray-300 list-disc text-md">GraphQL</li>
         </div>
@@ -105,15 +107,26 @@
         </div>
         <div class="my-1">
           <li class="ml-4 font-semibold text-gray-300 list-none text-md">
+            DevOps
+          </li>
+          <li class="ml-8 text-gray-300 list-disc text-md">Docker</li>
+          <li class="ml-8 text-gray-300 list-disc text-md">
+            Kubernetes (Basic)
+          </li>
+        </div>
+        <div class="my-1">
+          <li class="ml-4 font-semibold text-gray-300 list-none text-md">
             Others
           </li>
           <li class="ml-8 text-gray-300 list-disc text-md">AWS</li>
-          <li class="ml-8 text-gray-300 list-disc text-md">Firebase</li>
+          <li class="ml-8 text-gray-300 list-disc text-md">
+            Google Cloud Platform
+          </li>
           <li class="ml-8 text-gray-300 list-disc text-md">
             Serverless Framework
           </li>
           <li class="ml-8 text-gray-300 list-disc text-md">
-            Git & Github
+            Git, Github, Bitbucket
           </li>
         </div>
       </ul>
@@ -122,7 +135,7 @@
       <h1 class="text-lg text-gray-500">
         Software engineer experienced building EdTech SaaS. Strong in API
         development and problem-solving skills. Proficient in Node.js,
-        Javascript, and MongoDB with database analysis and design. Eager to
+        Javascript, and modern database technology both SQL and NoSQL. Eager to
         learn new technology and build innovative and cutting edge business
         solutions.
       </h1>
@@ -139,10 +152,15 @@
       </h1>
       <ul class="ml-5 text-gray-500 list-disc">
         <li>
-          Backend development with Node.js, SQL Database and NoSQL database
+          Backend development with Node.js using popular frameworks like
+          Express.js, Fastify and NestJS
         </li>
         <li>
-          Application Development with Cloud environment (AWS, Google Cloud)
+          SQL Database and NoSQL database design
+        </li>
+        <li>
+          Application deployment with Cloud platform environment (AWS, Google
+          Cloud Platform)
         </li>
       </ul>
       <h1 class="my-1 mt-4 text-xl font-semibold text-gray-600">
@@ -293,13 +311,13 @@
 </template>
 
 <script>
-import Facebook from "./FacebookIcon.vue";
-import LinkedinIcon from "./LinkedinIcon.vue";
-import GithubIcon from "./GithubIcon.vue";
-import ExternalLink from "./ExternalLink.vue";
+import Facebook from './FacebookIcon.vue';
+import LinkedinIcon from './LinkedinIcon.vue';
+import GithubIcon from './GithubIcon.vue';
+import ExternalLink from './ExternalLink.vue';
 
 export default {
-  name: "Resume",
+  name: 'Resume',
   components: {
     Facebook,
     LinkedinIcon,
